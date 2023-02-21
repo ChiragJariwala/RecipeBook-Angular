@@ -7,4 +7,7 @@ templateUrl:'./header.component.html'
 
 export class HeaderComponent{
 
+  appTitle:string ='Recipe Book';
+
+
 }
