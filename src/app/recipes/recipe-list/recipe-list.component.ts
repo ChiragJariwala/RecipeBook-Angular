@@ -13,6 +13,7 @@ export class RecipeListComponent implements OnInit {
     'https://www.indianhealthyrecipes.com/wp-content/uploads/2021/06/idli-380x570.jpg.webp'),
     new Recipe('A test recipe 2','Sample description','https://www.vegrecipesofindia.com/wp-content/uploads/2021/02/matar-paneer-2-480x270.jpg'),
     new Recipe('A test recipe 3','Sample description','https://www.vegrecipesofindia.com/wp-content/uploads/2021/02/matar-paneer-2-480x270.jpg')
+    ,new Recipe('A test recipe 4','Sample description 4','https://www.vegrecipesofindia.com/wp-content/uploads/2021/02/matar-paneer-2-480x270.jpg')
   ]
 
   constructor(){

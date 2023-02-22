@@ -4,18 +4,8 @@
   </div>
 </div>
 <hr>
-<a href="#" *ngFor="let recipe of recipes">
-  <div class="media my-3">
-    <div class="media-img-wrapper">
-      <img
-        [src]="recipe.imagePath"
-        class="media-img"
-      />
-    </div>
-    <div class="media-body">
-      <h5>{{ recipe.name }}</h5>
-      <span>{{ recipe.description }}</span>
-    </div>
-    <!-- <app-recipe-item> </app-recipe-item> -->
+<div class="row">
+  <div class="col-xs-12">
+    <app-recipe-item *ngFor="let recipeEl of recipes" [recipe]="recipeEl" />
   </div>
-</a>
+</div>
