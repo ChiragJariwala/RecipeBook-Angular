@@ -1,1 +1,15 @@
-<p>recipe-item works!</p>
+<a href="#" >
+  <div class="media my-3">
+    <div class="media-img-wrapper">
+      <img
+        [src]="recipe.imagePath"
+        class="media-img"
+      />
+    </div>
+    <div class="media-body">
+      <h5>{{ recipe.name }}</h5>
+      <span>{{ recipe.description }}</span>
+    </div>
+    <!-- <app-recipe-item> </app-recipe-item> -->
+  </div>
+</a>
